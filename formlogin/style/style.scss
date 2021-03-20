@@ -1,0 +1,97 @@
+$backColor: rgba(33, 20, 153, 0.966);
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body {
+  background-color: $backColor;
+}
+
+#main {
+  height: 70%;
+  width: 70%;
+
+  border-radius: 15px;
+  overflow: hidden;
+
+  #imageBox {
+    float: left;
+    height: 100%;
+    width: 60%;
+
+    box-sizing: border-box;
+    background-color: black;
+  }
+  #formBox {
+    float: left;
+    height: 100%;
+    width: 40%;
+    box-sizing: border-box;
+    background-color: white;
+    h1 {
+      color: $backColor;
+      font-family: fantasy;
+      margin-left: 5%;
+      font-weight: bolder;
+    }
+  }
+
+  .morning {
+    background: url(../image/morning.jpg) no-repeat;
+    background-size: 100% 100%;
+  }
+
+  .evning {
+    background: url(../image/evining.jpg) no-repeat;
+    background-size: 100% 100%;
+  }
+
+  .night {
+    background: url(../image/night.jpg) no-repeat;
+    background-size: 100% 100%;
+  }
+}
+
+form {
+  margin-top: 8%;
+  input {
+    margin-left: 15%;
+    height: 8%;
+    width: 70%;
+    border: none;
+    background-color: rgba(128, 128, 128, 0.555);
+    color: black;
+  }
+
+  hr {
+    margin: 15px 35%;
+  }
+
+  button {
+    margin: 10px 34%;
+    height: 7%;
+    width: 33%;
+    border: none;
+    background-color: $backColor;
+    color: white;
+    border-radius: 15px;
+  }
+  p {
+    text-align: center;
+    margin: 0;
+    a {
+      text-decoration: none;
+      color: blue;
+      font-weight: bold;
+    }
+  }
+}
+
+input::placeholder {
+  color: white;
+}
+
+#eamilerror,#passerror{
+    color: red;
+}

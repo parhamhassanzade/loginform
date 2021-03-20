@@ -1,0 +1,121 @@
+.center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body {
+  background-color: rgba(33, 20, 153, 0.966);
+}
+
+#main {
+  height: 70%;
+  width: 70%;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+#main #imageBox {
+  float: left;
+  height: 100%;
+  width: 60%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: black;
+}
+
+#main #formBox {
+  float: left;
+  height: 100%;
+  width: 40%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: white;
+}
+
+#main #formBox h1 {
+  color: rgba(33, 20, 153, 0.966);
+  font-family: fantasy;
+  margin-left: 5%;
+  font-weight: bolder;
+}
+
+#main .morning {
+  background: url(../image/morning.jpg) no-repeat;
+  background-size: 100% 100%;
+}
+
+#main .evning {
+  background: url(../image/evining.jpg) no-repeat;
+  background-size: 100% 100%;
+}
+
+#main .night {
+  background: url(../image/night.jpg) no-repeat;
+  background-size: 100% 100%;
+}
+
+form {
+  margin-top: 8%;
+}
+
+form input {
+  margin-left: 15%;
+  height: 8%;
+  width: 70%;
+  border: none;
+  background-color: rgba(128, 128, 128, 0.555);
+  color: black;
+}
+
+form hr {
+  margin: 15px 35%;
+}
+
+form button {
+  margin: 10px 34%;
+  height: 7%;
+  width: 33%;
+  border: none;
+  background-color: rgba(33, 20, 153, 0.966);
+  color: white;
+  border-radius: 15px;
+}
+
+form p {
+  text-align: center;
+  margin: 0;
+}
+
+form p a {
+  text-decoration: none;
+  color: blue;
+  font-weight: bold;
+}
+
+input::-webkit-input-placeholder {
+  color: white;
+}
+
+input:-ms-input-placeholder {
+  color: white;
+}
+
+input::-ms-input-placeholder {
+  color: white;
+}
+
+input::placeholder {
+  color: white;
+}
+
+#eamilerror, #passerror {
+  color: red;
+}
+/*# sourceMappingURL=style.css.map */
